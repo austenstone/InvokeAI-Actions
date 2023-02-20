@@ -1,0 +1,7 @@
+.venv/**
+configs/**
+embeddings/**
+models/**
+text-inversion-data/**
+text-inversion-training-data/**
+invokeai.init
