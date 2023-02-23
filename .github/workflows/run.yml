@@ -18,6 +18,5 @@ jobs:
       - run: python -m venv .venv --prompt InvokeAI
       - run: source .venv/bin/activate
       - run: pip install InvokeAI --use-pep517 --extra-index-url https://download.pytorch.org/whl/cpu
-      - run: invokeai-configure --no-interactive --yes
-      - run: ~/invokeai/invoke.sh
+      - run: invokeai-configure --skip-sd-weights --yes
       - run: invokeai
